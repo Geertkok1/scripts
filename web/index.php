@@ -1,4 +1,5 @@
 <?php
+ini_set('display_errors', 1);
 echo "Ping test tool";
 echo "<form action="index.php">
 Hostname or IP to ping <input type="text" name="host" id="host"></input>
